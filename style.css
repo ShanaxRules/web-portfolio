@@ -136,6 +136,13 @@ nav li a {
     margin-bottom: 0px;
 }
 
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+
+
 .section-description {
     color: var(--dark-03, #757575);
     text-align: center;
@@ -143,6 +150,12 @@ nav li a {
     font-style: normal;
     font-weight: 400;
     margin-top:10px;
-    margin-left:150px;
+    
    
+}
+
+.about-info-container{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
 }
