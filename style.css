@@ -1,5 +1,9 @@
 /* nav related styles */
 
+section{
+    margin-bottom:60px;
+}
+
 header {
     margin-bottom: 60px;
 }
@@ -202,10 +206,52 @@ main {
 }
 
 .resume-column-title {
+    
     color: var(--dark-02, #474747);
 
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-item-title {
+    color: var(--dark-02, #474747);
+
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.resume-item-institute {
+    color: var(--dark-03, #757575);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top:0px;
+}
+
+.resume-item-description {
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume-container hr{
+    background: #D1D1D1;
+}
+
+.download-cv{
+    text-align:center;
+    margin-top:50px;
 }
